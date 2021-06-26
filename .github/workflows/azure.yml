@@ -12,7 +12,7 @@ jobs:
     - name: Download NGROK - NSSM.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/MisterGitsRep/files/main/ngrok.exe -OutFile ngrok.exe
-        Invoke-WebRequest https://raw.githubusercontent.com/MisterGitsRep/files/main/nssm.exe -OutFile nssm.exe
+        Invoke-WebRequest https://github.com/MisterGitsRep/files/raw/main/nssm.exe -OutFile nssm.exe
         
     - name: Copy NGROK - NSSM to System32.
       run: | 
